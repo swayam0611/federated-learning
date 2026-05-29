@@ -1,0 +1,3 @@
+ROUND 1 | Acc=0.7204 | Recall=0.6590 | Precision=0.7512 | F1=0.7021 | TP=4213 | FP=1395 | TN=4998 | FN=2180
+ROUND 2 | Acc=0.7217 | Recall=0.6506 | Precision=0.7585 | F1=0.7004 | TP=4159 | FP=1324 | TN=5069 | FN=2234
+ROUND 3 | Acc=0.7213 | Recall=0.6493 | Precision=0.7586 | F1=0.6997 | TP=4151 | FP=1321 | TN=5072 | FN=2242

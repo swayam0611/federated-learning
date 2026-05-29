@@ -1,0 +1,121 @@
+ROUND 0 | Acc=0.5354 | Recall=0.0821 | Precision=0.8779 | F1=0.1502
+
+========== ROUND 1 ==========
+[Client C1] HD=0.1586 | COLLECTION/WARMUP
+[Client C3] HD=0.0435 | COLLECTION/WARMUP
+[Client C2] HD=0.1269 | COLLECTION/WARMUP
+ROUND 1 | Acc=0.7216 | Recall=0.6868 | Precision=0.7382 | F1=0.7116
+
+========== ROUND 2 ==========
+[Client C3] HD=0.0505 | COLLECTION/WARMUP
+[Client C1] HD=0.1009 | COLLECTION/WARMUP
+[Client C2] HD=0.1216 | COLLECTION/WARMUP
+ROUND 2 | Acc=0.7231 | Recall=0.6695 | Precision=0.7500 | F1=0.7074
+
+========== ROUND 3 ==========
+[Client C1] HD=0.0966 | COLLECTION/WARMUP
+[Client C3] HD=0.0511 | COLLECTION/WARMUP
+[Client C2] HD=0.1135 | COLLECTION/WARMUP
+ROUND 3 | Acc=0.7232 | Recall=0.6690 | Precision=0.7504 | F1=0.7074
+
+========== ROUND 4 ==========
+[Client C1] HD=0.0939 | COLLECTION/WARMUP
+[Client C2] HD=0.1108 | COLLECTION/WARMUP
+[Client C3] HD=0.0503 | COLLECTION/WARMUP
+ROUND 4 | Acc=0.7232 | Recall=0.6695 | Precision=0.7501 | F1=0.7075
+
+========== ROUND 5 ==========
+[Client C3] HD=0.0489 | COLLECTION/WARMUP
+[Client C2] HD=0.1093 | COLLECTION/WARMUP
+[Client C1] HD=0.0935 | COLLECTION/WARMUP
+ROUND 5 | Acc=0.7238 | Recall=0.6701 | Precision=0.7507 | F1=0.7081
+
+========== ROUND 6 ==========
+[Client C1] HD=0.0945 | RTD=0.0002 | OK
+[Client C3] HD=0.0478 | RTD=0.0024 | OK
+[Client C2] HD=0.1076 | RTD=0.0036 | OK
+ROUND 6 | Acc=0.7236 | Recall=0.6695 | Precision=0.7507 | F1=0.7078
+
+========== ROUND 7 ==========
+[Client C1] HD=0.0933 | RTD=0.0007 | OK
+[Client C3] HD=0.0473 | RTD=0.0017 | OK
+[Client C2] HD=0.1070 | RTD=0.0023 | OK
+ROUND 7 | Acc=0.7235 | Recall=0.6684 | Precision=0.7512 | F1=0.7074
+
+========== ROUND 8 ==========
+[Client C1] HD=0.0948 | RTD=0.0010 | OK
+[Client C2] HD=0.1077 | RTD=0.0002 | OK
+[Client C3] HD=0.0471 | RTD=0.0008 | OK
+ROUND 8 | Acc=0.7234 | Recall=0.6682 | Precision=0.7512 | F1=0.7073
+
+========== ROUND 9 ==========
+[Client C1] HD=0.0949 | RTD=0.0007 | OK
+[Client C2] HD=0.1090 | RTD=0.0016 | OK
+[Client C3] HD=0.0449 | RTD=0.0025 | OK
+ROUND 9 | Acc=0.7243 | Recall=0.6751 | Precision=0.7488 | F1=0.7100
+
+========== ROUND 10 ==========
+[Client C2] HD=0.1099 | RTD=0.0020 | OK
+[Client C3] HD=0.0436 | RTD=0.0028 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=⚠️ SUSPICIOUS - OBSERVE
+ROUND 10 | Acc=0.5000 | Recall=0.0000 | Precision=0.0000 | F1=0.0000
+
+========== ROUND 11 ==========
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=⚠️ SUSPICIOUS - OBSERVE
+[Client C3] HD=0.0380 | RTD=0.0072 | OK
+[Client C2] HD=0.1048 | RTD=0.0041 | OK
+ROUND 11 | Acc=0.5000 | Recall=0.0000 | Precision=0.0000 | F1=0.0000
+
+========== ROUND 12 ==========
+[Client C2] HD=0.1086 | RTD=0.0007 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C3] HD=0.0347 | RTD=0.0075 | OK
+ROUND 12 | Acc=0.7253 | Recall=0.6897 | Precision=0.7426 | F1=0.7152
+
+========== ROUND 13 ==========
+[Client C2] HD=0.1094 | RTD=0.0017 | OK
+[Client C3] HD=0.0361 | RTD=0.0027 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+ROUND 13 | Acc=0.7255 | Recall=0.6864 | Precision=0.7446 | F1=0.7143
+
+========== ROUND 14 ==========
+[Client C3] HD=0.0380 | RTD=0.0017 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C2] HD=0.1103 | RTD=0.0027 | OK
+ROUND 14 | Acc=0.7250 | Recall=0.6836 | Precision=0.7454 | F1=0.7131
+
+========== ROUND 15 ==========
+[Client C2] HD=0.1102 | RTD=0.0007 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C3] HD=0.0393 | RTD=0.0031 | OK
+ROUND 15 | Acc=0.7250 | Recall=0.6818 | Precision=0.7463 | F1=0.7126
+
+========== ROUND 16 ==========
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C3] HD=0.0410 | RTD=0.0031 | OK
+[Client C2] HD=0.1110 | RTD=0.0011 | OK
+ROUND 16 | Acc=0.7252 | Recall=0.6807 | Precision=0.7473 | F1=0.7124
+
+========== ROUND 17 ==========
+[Client C2] HD=0.1114 | RTD=0.0009 | OK
+[Client C3] HD=0.0412 | RTD=0.0017 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+ROUND 17 | Acc=0.7252 | Recall=0.6806 | Precision=0.7472 | F1=0.7123
+
+========== ROUND 18 ==========
+[Client C2] HD=0.1112 | RTD=0.0003 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C3] HD=0.0405 | RTD=0.0000 | OK
+ROUND 18 | Acc=0.7252 | Recall=0.6809 | Precision=0.7472 | F1=0.7125
+
+========== ROUND 19 ==========
+[Client C2] HD=0.1114 | RTD=0.0002 | OK
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C3] HD=0.0412 | RTD=0.0003 | OK
+ROUND 19 | Acc=0.7252 | Recall=0.6807 | Precision=0.7473 | F1=0.7124
+
+========== ROUND 20 ==========
+[Client C1] HD=0.5412 | RTD=0.4469 | Status=🚨 ATTACK DETECTED - SWAPPING WITH BUFFER
+[Client C2] HD=0.1113 | RTD=0.0001 | OK
+[Client C3] HD=0.0413 | RTD=0.0004 | OK
+ROUND 20 | Acc=0.7252 | Recall=0.6806 | Precision=0.7472 | F1=0.7123
