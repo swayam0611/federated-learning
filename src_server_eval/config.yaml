@@ -1,0 +1,7 @@
+device: "cpu"
+attack_round: 10
+attacking_client: "2"
+flip_type: "0->1"
+server_log: "../metrics/server_eval/server_metrics_c2_0.txt"
+sheet_start_cell: "A28"
+ehd: "0.3HD"

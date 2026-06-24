@@ -17,7 +17,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import yaml;
 
 # global system setup
-SEED = 30
+SEED = 42
 os.environ["PYTHONHASHSEED"] = str(SEED)
 random.seed(SEED)
 np.random.seed(SEED)
@@ -44,6 +44,7 @@ SERVER_LOG = config["server_log"]
 ATTACKING_CLIENT = config["attacking_client"]
 FLIP_TYPE = config["flip_type"]
 SHEET_START_CELL = config["sheet_start_cell"]
+EHD = config["ehd"]
 
 if os.path.exists(SERVER_LOG):
     os.remove(SERVER_LOG)
@@ -335,9 +336,9 @@ def get_client_fn(csv_dir, input_size):
 
     def client_fn(cid: str) -> fl.client.Client:
         partition_map = {
-            "0": "partition0.csv", 
-            "1": "partition1.csv", 
-            "2": "partition2.csv"
+            "0": "client_1.csv", 
+            "1": "client_2.csv", 
+            "2": "client_3.csv"
         }
         
         csv_path = os.path.join(csv_dir, partition_map[cid])
@@ -458,8 +459,8 @@ def export_logs_to_sheets(log_file_path, spreadsheet_title, client_start_cell, a
 # main function
 if __name__ == "__main__":
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    DATA_DIR = os.path.join(BASE_DIR, "data", "custom_splits", "output_final")
-    sample_df = pd.read_csv(os.path.join(DATA_DIR, "partition0.csv"))
+    DATA_DIR = os.path.join(BASE_DIR, "data", "custom_splits", "output_final", "local_evaluation", EHD)
+    sample_df = pd.read_csv(os.path.join(DATA_DIR, "client_1.csv"))
     INPUT_SIZE = sample_df.shape[1] - 1 
 
     print(f"Initializing Virtual Engine for 3 clients. Features detected: {INPUT_SIZE}")
